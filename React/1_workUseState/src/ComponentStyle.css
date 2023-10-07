@@ -1,0 +1,156 @@
+.imgBody, #root{
+    position: relative;
+    height: 100vh;
+  }
+  .ball{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    cursor: pointer;
+    background-color: violet;
+  }
+.Fball{
+    animation-duration: 3s;
+    animation-name: food;
+    animation-timing-function: linear;
+}
+@keyframes food{
+    0%{
+        left:0%;
+        bottom:0%;
+    }
+    10%{
+        left:10%;
+        bottom:10%;
+    }
+    20%{
+        left:20%;
+        bottom:20%;
+    }
+    30%{
+        left:30%;
+        bottom:30%;
+    }
+    32%{
+        left:32%;
+        bottom:32%;
+    }
+    34%{
+        left:34%;
+        bottom:34%;
+    }
+    36%{
+        left:36%;
+        bottom:36%;
+    }
+    38%{
+        left:38%;
+        bottom:38%;
+    }
+    40%{
+        left:40%;
+        bottom:40%;
+    }
+    42%{
+        left:42%;
+        bottom:42%;
+    }
+    44%{
+        left:44%;
+        bottom:44%;
+    }
+    46%{
+        left:46%;
+        bottom:46%;
+    }
+    48%{
+        left:48%;
+        bottom:48%;
+    }
+    50%{
+        left:50%;
+        bottom:50%;
+    }
+    
+    60%{
+        left:60%;
+        bottom:48%;
+    }
+    70%{
+        left:70%;
+        bottom:46%;
+    }
+    80%{
+        left:80%;
+        bottom:44%;
+    }
+    90%{
+        left:90%;
+        bottom:42%;
+    }
+    95%{
+        left:95%;
+        bottom:0%;
+    }
+  }
+  .footballGates{
+    width: 50px;
+    height: 400px;
+    background-color:rgb(0, 0, 0);
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+    color: #fff;
+  }
+  .bodyCF{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+  }
+  .CatPH{
+    width: 400px;
+  }
+  .catCenter{
+    text-align: center;
+  }
+
+  .bodySquare{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+  }
+  .Square{
+    color:chartreuse;
+    width: 200px;
+    height: 200px;
+  }
+  .bodyCar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Car{
+    position: relative;
+  }
+.mark{
+    z-index: 5;
+    position: absolute;
+    left: 745px;
+    top: 160px;
+}
+.bodyCoin{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.coin{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 25%);
+    margin: 0 auto ;
+}

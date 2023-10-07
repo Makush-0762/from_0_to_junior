@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="_container">
+            <div class="searchBlock">
+                <div class="titleBlock">CURRENT WEATHER</div>
+                <div class="inputBlock">
+                    <form action="">
+                        <input type="text" id="search-login" class="search" value="" placeholder="Search">
+                        <span class="magnifying-glass" id="searchIcon"></span>
+                    </form>
+                </div>
+            </div>
+            <div class="weatherToday">
+                    <div class="name_date">
+                        <div class="nameCity titleBlock" id="name-city"></div>
+                        <div class="actualyData titleBlock" id="dataTo"></div>
+                    </div>
+                    <div class="typeOfWeather" ><strong id="weather-Type"></strong></div>
+                    <div class="bodyWeterStatus">
+                        <div class="imgWeather"><img src="" alt="" id="imgWeather" width="150px"></div>
+                        <div class="temperature" id="temperature"></div>
+                        <div class="minMax_temp">
+                            <table>
+                                <tr>
+                                    <td class="minmax">Min temperature</td>
+                                    <td id="minTemp"></td>
+                                <tr/>
+                                <tr>
+                                    <td class="minmax">Max temperature</td>
+                                    <td id="maxTemp"></td>
+                                <tr/>
+                                <tr>
+                                    <td class="minmax">Wind speed (km/n)</td>
+                                    <td id="windSpeed"></td>
+                                <tr/>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="errorPar dissplayN">
+                    <div class="error">
+                            <h2 class="titleEror">404</h2>
+                            <p>NON FOUND</p>
+                            <p>Please enter a different city</p>
+                    </div>
+                </div>
+                        <!-- <div class="weatherToday active">
+                            <div class="name_date">
+                                <div class="nameCity titleBlock" id="name-city">Hourly</div>
+                            </div>
+                            <table class="weatherEveryTime">
+                                <tr>
+                                <th></th>
+                                <th>7:00</th>
+                                <th>10:00</th>
+                                <th>13:00</th>
+                                <th>15:00</th>
+                                <th>18:00</th>
+                                <th>21:00</th>
+                                </tr>
+                                <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <td>Forecast</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <td>Temp&#8451;</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <td>Wind (km/h)</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                </tr>
+                            </table> -->
+
+                            <!-- <div class="typeOfWeather" ><strong id="weather-Type"> dfsed</strong></div>
+                            <div class="bodyWeterStatus">
+                                <div class="imgWeather"><img src="" alt="" id="imgWeather" width="150px"></div>
+                                <div class="temperature">18&#176;С</div>
+                                <div class="minMax_temp">
+                                    <table>
+                                        <tr>
+                                            <td class="minmax">Min temperature</td>
+                                            <td id="minTemp">Jack Russell</td>
+                                        <tr/>
+                                        <tr>
+                                            <td class="minmax">Max temperature</td>
+                                            <td id="maxTemp">Jack Russell</td>
+                                        <tr/>
+                                        <tr>
+                                            <td class="minmax">Wind speed (km/n)</td>
+                                            <td id="windSpeed">Jack Russell</td>
+                                        <tr/>
+                                    </table>
+                                </div>
+                            </div> -->
+                </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

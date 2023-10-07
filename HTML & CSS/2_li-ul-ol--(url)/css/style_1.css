@@ -1,0 +1,28 @@
+
+.text {
+	font-family: 'Roboto', 'Arial', 'Colibri', sant-serif;
+}
+.winter {
+	color: DodgerBlue;
+}
+.winter1 {
+	list-style-image: url("../img/winter.png");
+}
+.spring {
+	color: Lime;
+}
+.spring1 {
+	list-style-image: url("../img/spring.png");
+}
+.summer {
+	color: Yellow;
+}
+.summer1 {
+	list-style-image: url("../img/summer.png");
+}
+.autumm {
+	color: DarkOrange;
+}
+.autumm1 {
+	list-style-image: url("../img/autumm.png");
+}

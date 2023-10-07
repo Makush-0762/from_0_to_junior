@@ -1,0 +1,87 @@
+body {
+    padding: 0 24px;
+    margin: 0;
+    height: 100vh;
+    background-color: rgba(255, 238, 255, 0.667);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .git_wrapper{
+    width: 50%;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    padding: 30px;
+    background-color: rgba(212, 212, 212, 0.667);
+    color: rgba(0, 0, 0, 1);
+    font-size: 18px;
+  }
+  .search-body{
+    padding: 15px 0px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  }
+  .body-img{
+    margin: 0px 0px 30px 0px;
+  }
+  .Name-of-user{
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+    align-items: center;
+  }
+  .Name-of-user:not(:last-child){
+    margin-bottom: 5%;
+  }
+  .item-Info{
+    padding-bottom: 5%;
+  }
+  .body_info{
+    display: flex;
+  }
+  .name-body{
+    width: 50%;
+  }
+  .url-body{
+    width: 50%;
+    margin-left: 10%;
+    margin-top: auto;
+    padding-top: 8%;
+  }
+  .name-body{
+    margin-top: auto;
+  }
+  .folovvers,.Following{
+    display: flex;
+  }
+  .folovvers .item-Info:last-child{
+    margin-left: 15px;
+  }
+  .Following .item-Info:last-child{
+    margin-left: 15px;
+  }
+  .search{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  }
+  .search:focus{
+    border:none;
+  }
+  input[type="text"]:focus {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    outline: none;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.3);
+  }
+  .error{
+    width: 100%;
+    top: 0;
+    display: none;
+    font-size: 24px;
+  }
+  .active{
+    display: block;
+  }
+  #urlToGithub{
+    text-decoration: none;
+  }

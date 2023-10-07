@@ -1,0 +1,50 @@
+.background {
+	margin: 0;
+    height: 100%;
+	background: url('IMG/background.jpg');
+	background-size: cover;
+	background-attachment: scroll;
+}
+
+.block {
+    background: #778899;
+    height: 2058.7px;
+    width: 800px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: calc(50% - 50%)
+    border-radius: 20px;
+    padding: 20px;
+}
+.name {
+	position: relative;
+	padding: 20px;
+	margin: 20px;
+	background: #FFFAF0;
+	border-radius: 20px;
+	border: 40px solid #778899;
+}
+.i{
+	color: rgba(0,0,0,0.5);
+	font-family: 'Roboto', 'Helvetica Nue', sans-serif;
+}
+th {
+	color: rgba(0,0,0,0.5);
+	font-family: 'Roboto', 'Helvetica Nue', sans-serif;
+}
+.image {
+	display: block;
+	margin: auto;
+	border-radius: 20px;
+	position: absolute;
+	left: 515px;
+	top: 15px;
+}
+h2,p,li {
+	font-family: 'Roboto', 'Helvetica Nue', sans-serif;
+}
+.p_title{
+	font-family: 'Roboto', 'Helvetica Nue', sans-serif;
+	font-size: 26px;
+}

@@ -1,0 +1,80 @@
+body{
+	background-color: #FFEFD5;
+}
+.wrapper{
+	display: flex;	
+	max-width: 1300px;
+	min-height: 705px;
+	margin: 0 auto;
+	background-color: #E6E6FA;
+	top: 0;
+	bottom: 0;
+	flex-wrap: row;
+	align-items: center;
+}
+.block{
+	background-color: #FFFFFF;
+	width: 300px;
+	height: 450px;
+	margin-left:20px;
+	border-radius: 20px;
+	text-align: center;
+	font-family: 'Unbounded', cursive;
+	font-size: 22px;
+	align-content: center;
+	transition: all 0.3s;
+	box-shadow: 3px 3px 15px black;
+}
+.block:hover{
+	transform: scale(1.2);
+}
+#summ{
+	font-size: 50px;
+	font-weight: 700;
+	margin-top: -15px;
+	margin-bottom: -15px;
+}
+#transparency{
+	color: rgba(0, 0, 0, 0.3);
+	font-weight: 600;
+	font-size: 24px;
+	margin-bottom: -10px;
+}
+span{
+	display: flex;
+	width: 125px;
+	height: 50px;
+	margin-left: 90px;
+	margin-top: 30px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 15px;
+}
+.enterprise span{
+	background-color: #C71585;
+}
+.enterprise h3{
+	border-bottom: 5px solid #C71585;
+	padding-bottom: 15px;
+}
+.profesional span{
+	background-color: #FF7F50;
+}
+.profesional h3{
+	border-bottom: 5px solid #FF7F50;
+	padding-bottom: 15px;
+}
+.standart span{
+	background-color: #1E90FF;
+}
+.standart h3{
+	border-bottom: 5px solid #1E90FF;
+	padding-bottom: 15px;
+}
+.basic span{
+	background-color: #32CD32;
+}
+.basic h3{
+	border-bottom: 5px solid #32CD32;
+	padding-bottom: 15px;
+}

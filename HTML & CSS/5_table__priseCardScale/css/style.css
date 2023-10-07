@@ -1,0 +1,31 @@
+table{
+	border-collapse: collapse;
+	width: 80%;
+	min-width: 900px;
+	max-width: 1050px;
+	margin: auto;
+}
+th{
+	background-color: #AFEEEE;
+	width: 16.5%;
+	height: 11.1%;
+	text-align: center;
+	padding: 1em 0;
+}
+thead:first-child{
+	position: sticky;
+	top: 0;
+}
+tbody > tr > th{
+	position: sticky;
+	left: 0;
+} 
+tr{
+	text-align: center;
+	padding: 1em 0;
+}
+table tr:nth-child(even){
+	background-color: #DCDCDC;
+	text-align: center;
+	padding: 1em 0;
+}

@@ -1,0 +1,172 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,
+ol,
+li{
+    list-style: none;
+}
+img{
+    vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: inherit;
+    font-size: inherit;
+}
+html,
+body{
+    height: 100%;
+    line-height: 1;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    color: #252B42;
+    background: #FAFAFA;
+    font-family:'Montserrat', sans-serif;
+}
+
+.wrapper{
+  min-height: 100%;
+  background-color: rgba(191, 191, 191, 0.667);
+  padding: 15px 0px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+._container{
+  width:  1046px;
+  /* background-color: rgba(255, 255, 255, 1); */
+  margin: 0px auto;
+  box-sizing: content-box;
+}
+.searchBlock{
+  display: flex;
+  justify-content: space-between;
+}
+.titleBlock{
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  color: rgba(37, 159, 157, 1);
+}
+.inputBlock{
+  display: flex;
+  justify-content: end;
+  width: 50%;
+}
+input[type="text"] {
+  text-transform: capitalize;
+  background-color:transparent;
+  width: 90%;
+  height: 30px;
+  border-bottom: 2px solid rgba(37, 159, 157, 1);
+}
+form{
+  width: 70%;
+}
+input[type="text"]:focus{
+  outline: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 1);
+}
+
+.magnifying-glass {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-top: 8.5px;
+  border-radius: 50%;
+  border: 2px solid rgba(232, 181, 41, 1);
+}
+.magnifying-glass:after {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  margin-left: 6px;
+  margin-top: 20.5px;
+  width: 9px;
+  height: 2px;
+  background-color: rgba(232, 181, 41, 1);
+  transform: rotate(45deg);
+}
+.weatherToday{
+  background-color: rgb(255, 255, 255);
+  margin-top: 35px;
+  padding: 30px;
+  height: 30%;
+}
+.name_date{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom:  20px;
+}
+.typeOfWeather{
+  margin-top: 15px;
+}
+.temperature{
+  display: flex;
+  align-items: center;
+  /* padding-bottom: 50px; */
+  font-size: 70px;
+}
+.bodyWeterStatus{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+.minmax{
+  padding-right: 25px;
+}
+td{
+  line-height: 300%;
+}
+tr td:last-child{
+  margin-left: 15px;
+}
+.weatherEveryTime td{
+  line-height: 200%;
+}
+.active{
+  display: none;
+}
+.errorPar{
+  height: 350px;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 15px 0px;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  margin-top: 35px;
+}
+.error{
+  text-align: center;
+}
+.titleEror{
+  color:  rgba(232, 181, 41, 1);
+  font-size: 45px;
+  font-weight: 600;
+}
+.error p:first-of-type {
+  font-size: 24px;
+  padding-bottom: 15px;
+}
+.error p:nth-of-type(2){
+  font-size: 20px;
+}
+.dissplayN{
+  display: none;
+}

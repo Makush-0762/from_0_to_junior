@@ -1,0 +1,19 @@
+.bodyFon img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.bodyFon{
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.opasity{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.7);
+}

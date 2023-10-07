@@ -1,0 +1,14 @@
+.bodySupportlink{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+}
+.supportlink{
+    color: #fff;
+    font-weight: 100;
+    width: auto;
+}
+.supportlink:hover{
+    color: #9d9d9d;
+}

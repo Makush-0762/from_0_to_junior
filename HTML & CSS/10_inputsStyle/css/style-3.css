@@ -1,0 +1,258 @@
+img{
+    width: 26px;
+    height: 26px;
+    margin-bottom: -8px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    height: 100vh;
+}
+.wrapper{
+    margin: auto 0;
+    width: 55%;
+    max-height: 60%;
+    padding: 30px;
+    background-color: rgb(226, 226, 226);
+    box-shadow: 2px 2px 25px 5px black;
+}
+.body__form{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 840px;
+    height: 490px;
+    grid-column-gap: 40px;
+}
+.registration__form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+.title__registration_form{
+    grid-column: 1 / 3;
+}
+.body__username{
+    grid-column: 1 / 3;
+}
+.body__email{
+    grid-column: 1 / 3;
+}
+.body__passvord{
+    grid-column: 1 / 3;
+}
+#password,#Confirm__password{
+    width: 36.2%;
+    padding: 8px 15px; 
+    margin-right: auto;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+#Confirm__password{
+    margin-left: 15px;
+}
+hr{
+    margin-top: 50px;
+}
+.body__checkboxes{
+    grid-column: 1 / 3;
+    margin-top: 50px;
+}
+.body__checkboxes > *:not(:last-child){
+    margin-bottom: 10px;
+}
+.personal__details{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+.title__personal__details{
+    grid-column: 1 / 3;
+}
+
+
+#username,#email{
+    width: 84.6%;
+    padding: 8px 15px; 
+    margin-right: auto;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+#username:focus{
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+#username:focus::-webkit-input-placeholder{
+    color: transparent;
+}
+#email:focus{
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+#email:focus::-webkit-input-placeholder{
+    color: transparent;
+}
+#password:focus{
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+#password:focus::-webkit-input-placeholder{
+    color: transparent;
+}
+#Confirm__password:focus{
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+#Confirm__password:focus::-webkit-input-placeholder{
+    color: transparent;
+}
+#first_name,#last_name{
+    width: 80%;
+    padding: 8px 15px; 
+    margin-right: auto;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+#first_name:focus{
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+#first_name:focus::-webkit-input-placeholder{
+    color: transparent;
+}
+#last_name{
+    margin-left: 10px;
+}
+#last_name:focus{
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+#last_name:focus::-webkit-input-placeholder{
+    color: transparent;
+}
+
+select{
+    width: 95%;
+    padding: 8px 15px;   
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+select:focus{
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+option{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+#date_birthday{
+    width: 80%;
+    padding: 8px 15px;   
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin-left: 11px;
+}
+#date_birthday:focus{
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.body__submit{
+    grid-column: 1 / 3;
+    margin-left: auto;
+    margin-top: 21px;
+}
+#submit{
+    padding: 13px 50px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(18, 142, 142);
+    font-weight: 400;
+    color: white;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+@media (max-width:900px) { 
+    .wrapper{
+        height: auto;
+    }
+    .body__form {
+        display: block;
+        /* grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr; */
+        grid-gap: 0;
+        height: auto;
+    }
+    .personal__details{
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    #username,#email{
+        width: 92.5%;
+    }
+    #password,#Confirm__password{
+        width: 43.3%;
+    }
+    #first_name,#last_name{
+        width: 90%;
+    }
+    select{
+        width: 97%;
+    }
+    #date_birthday{
+        width: 90%;
+    }
+    .body__submit{
+        display: flex;
+        justify-content: flex-end;
+        margin-left: auto;
+    }
+}
+@media (max-width:600px) { 
+    .body__passvord{
+        grid-column: 1 / 3;
+        grid-row: 4 / 6;
+    }
+    #password,#Confirm__password{
+        width: 92.5%;
+    }
+    #Confirm__password{
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .registration__form{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }    
+    .personal__details{
+        display: block;
+    }
+    #first_name,#last_name,.body__select,#date_birthday{
+        margin-left: 0;
+        width: 96%;
+    }
+    #select_male{
+        width: 99.5%;
+    }
+    .personal__details > *:not(:last-child){
+        margin-bottom: 30px;
+    }
+}

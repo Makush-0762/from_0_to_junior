@@ -1,0 +1,60 @@
+.body{
+    background-color: grey;
+    max-width: 1000px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    margin: auto;
+    line-height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    background-color: purple;
+    border-radius: 50%;
+}
+.clock{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 480px;
+    height: 480px;
+    background-color: grey;
+    border-radius: 50%;
+}
+span{
+    width: 22px;
+    height: 22px;
+    background-color: purple;
+    border-radius: 50%;
+    z-index: 1;
+}
+.clock::before, .clock::after{
+    position: absolute;
+    content: '';
+    width: 17px;
+    background-color: purple;
+    border-radius: 10px;
+    transform-origin: center calc(100% - calc(17px / 2));
+    animation: anim infinite linear;
+}
+.clock::before{
+    height: 200px;
+    top: 50px;
+    animation-duration: 1s;
+}
+.clock::after{
+    top: 100px;
+    height: 150px;
+    animation-duration: 60s;
+}
+@keyframes anim{
+
+    to{
+        transform: rotate(360deg);
+    }
+}

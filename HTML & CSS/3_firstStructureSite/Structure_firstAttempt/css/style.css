@@ -1,0 +1,195 @@
+body{
+	background-color: #E9FFF8;
+	height: 100%;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+p,h2{
+	font-size: 40px;
+}
+.header{
+	background-color: lightblue;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 1080px;
+	border: 1px solid #003fa3;
+}
+.sidebar{
+	background-color: blueviolet;
+	background-attachment: fixed;
+	background-size: cover;
+	width: 90%;
+	height: 100px;
+	margin: auto;
+	margin-top: 1%;
+	border: 1px solid #003fa3;
+	position: sticky;
+	top: 0;
+}
+.news{
+	background-color: #35C6F3;
+	background-attachment: fixed;
+	background-size: cover;
+	width: 40%;
+	height: 40%;
+	margin: 200px 1400px 400px 200px;
+	border: 1px solid #003fa3;
+}
+.button{
+	background-color: #08BCF4;
+	background-attachment: fixed;
+	background-size: cover;
+	border: 1px solid #003fa3;
+	width: 90%;
+	height: 113px;
+	margin: 35% 10% 10% 5%;
+}
+.main{
+	flex: 1 1 auto;
+}
+.block_2{
+	display: block;
+	width: 40%;
+	margin: auto;
+	/*border: 1px solid #003fa3;*/
+	text-align: center;
+	font-size: 70px;
+}
+.family{
+	margin: auto;
+	width: 70%;
+	height: 90%;
+}
+.dogs,.cats,.bird,.rabbit{
+	background-color: #08BCF4;
+	background-attachment: fixed;
+	background-size: cover;
+	border: 1px solid #003fa3;
+	width: 45%;
+	height: 450px;
+}
+.bird,.dogs{
+	float: left;
+
+}
+.cats,.rabbit{
+	float: right;
+}
+.rabbit,.bird{
+	margin-top: 10%;
+}
+.footer{
+	position: relative;
+	border: 1px solid #003fa3;
+}
+.clear{
+	clear: left;
+	clear: right;
+	clear: both;
+}
+.ten_K,.happy{
+	display: block;
+	text-align: center;
+	/*border: 1px solid #003fa3;*/
+	font-size: 70px;
+	width: 60%;
+	margin: auto;
+}
+.support{
+	background-color: #7FFBD5;
+	border: 1px solid #003fa3;
+	width: 100%;
+	height: calc(1080px - 540px);
+}
+.supp{	
+	display: block;
+	text-align: center;
+	/*border: 1px solid #003fa3;*/
+	font-size: 80px;
+}
+.buttons{
+	margin: auto;
+	width: 55%;
+}
+.uan{
+	background-color: white;
+	width: 360px;
+	height: 112px;
+	border: 1px solid #003fa3;
+	float: left;
+}
+.go_supp{
+	background-color: orange;
+	float: right;
+	width: 360px;
+	height: 112px;
+	border: 1px solid #003fa3;
+}
+.happy_dogs{
+	width: 80%;
+	/*border: 1px solid #003fa3;*/
+	margin: auto;
+}
+.dog1,.dog2,.dog3,.dog4,.dog5,.dog6{
+	background-color: #A87438;
+	border: 1px solid #003fa3;
+}
+.dog1{
+	width: 39%;
+	height: 350px;
+	float: left;
+}
+.dog2{
+	width: 59%;
+	height: 350px;
+	float: right;
+}
+.dog3{
+	width: 59%;
+	height: 350px;
+	float: left;
+	margin-top: 1%;
+}
+.dog4{
+	width: 39%;
+	height: 350px;
+	float: right;
+	margin-top: 1%;
+}
+.dog5{
+	width: 49%;
+	height: 500px;
+	float: right;
+	margin-top: 1%;
+}
+.dog6{
+	width: 49%;
+	height: 500px;
+	float: left;
+	margin-top: 1%;
+}
+/*footer{
+	margin-top: 2%;
+}*/
+.Map{
+	background-color: #D6D6D6;
+	height: 500px;
+	width: 100%;
+}
+.adress{
+	background-color: #8A8A8A;
+	width: 20%;
+	height: 65%;
+	float: right;
+	margin-right: 15%;
+	border: 1px solid #003fa3;
+}
+.Footer{
+	background-color: #61C6FF;
+	height: 450px;
+	border: 1px solid #61C6FF;
+}
+hr{
+	margin-top: 10%;
+}

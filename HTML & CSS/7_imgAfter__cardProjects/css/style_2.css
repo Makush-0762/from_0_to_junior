@@ -1,0 +1,93 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 5% auto;
+    font-family: Roboto, serif;
+    flex-wrap: wrap;
+}
+.parent{
+    display: flex;
+}
+.block-1,.block-2,.block-3{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin-right: 60px;
+    /*margin-bottom: 60px;*/
+    box-shadow: 0 0 15px black;
+}
+.block-1{
+    background-image: url("../img/road1.jpg");
+}
+.block-2{
+    background-image: url("../img/road2.jpg");
+}
+.block-3{
+    background-image: url("../img/road3.jpg");
+}
+.text{
+    position: absolute;
+    background-color: #ffffff;
+    width: auto;
+    height: auto;
+    margin-top: 59%;
+    padding: 10px;
+}
+.geo{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.3);
+}
+h4{
+    font-size: 18px;
+}
+.hidden {
+    display: none;
+}
+/*.text-after-1,.text-after-2,.text-after-3{*/
+/*    width: 366px;*/
+/*    height: 370px;*/
+/*    text-align: center;*/
+/*    border-bottom: 3px solid #ff9115;*/
+/*    position: absolute;*/
+/*    box-shadow: 0 0 15px black;*/
+/*    color: white;*/
+/*    padding: 15px;*/
+/*    display: none;*/
+/*    transition: all 5s ease 0s;*/
+/*}*/
+/*.text-after-1{*/
+/*    background: rgba(0, 0, 0, 0.5);*/
+/*}*/
+/*.text-after-2{*/
+/*    background-image: url("../img/road2.jpg");*/
+/*    background-color: rgba(0, 0, 0, 0.7);*/
+/*}*/
+/*.text-after-3{*/
+/*    background-image: url("../img/road3.jpg");*/
+/*    background-color: rgba(0, 0, 0, 0.7);*/
+/*}*/
+/*.text-after > .span{*/
+/*    position:absolute;*/
+/*    width: auto;*/
+/*    height: 40px;*/
+/*    display: block;*/
+/*    padding: 15px;*/
+/*    background-color: #ff9115;*/
+/*}*/
+/*.geo-after-1,.geo-after-2,.geo-after-3{*/
+/*    font-size: 12px;*/
+/*    color: white;*/
+/*}*/
+/*.block-1:hover .text-after-1{*/
+/*    display:block;*/
+/*}*/
+/*.block-2:hover .text-after-2{*/
+/*    display:block;*/
+/*}*/
+/*.block-3:hover .text-after-3{*/
+/*    display:block;*/
+
+}

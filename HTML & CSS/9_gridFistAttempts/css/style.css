@@ -1,0 +1,123 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,
+ol,
+li{
+    list-style: none;
+}
+img{
+    vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: inherit;
+    font-size: inherit;
+}
+html,
+body{
+    height: 100%;
+    line-height: 1;
+    font-size: 14px;
+    font-weight: 500;
+    color: #252B42;
+    background: #FAFAFA;
+    font-family: Montserrat;
+}
+/*-----------------------------------------------------------------------------*/
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:  1fr 7.05fr;
+}
+.header {
+    background-color: #008B8B;
+    padding: 30px 0px 30px 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 40px;
+    background-color: #20B2AA;
+    justify-items: center;
+    align-items:center ;
+    overflow-x: auto;
+    padding: 0 20px;
+    height: 100%;
+}
+.main__to_Do {
+    padding: 30px;
+    width: 400px;
+    height: 600px;
+    background-color: #D3D3D3;
+    border-radius: 10px;
+    overflow: auto;
+}
+.to_Do__item{
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+    height: auto;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: rgb(56, 56, 56);
+}
+.to_Do__item:not(:last-child){
+    margin-bottom: 15px;
+}
+.to_Do__title {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-bottom: 15px;
+
+}
+.to_Do__text {
+    line-height: 170%;
+}
+.to_Do__icons {
+    position: relative;
+    display: flex;
+    bottom: 0;
+    margin-top: 15px;
+}
+.to_Do__icon{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.to_Do__icon span{
+    margin-left: 5px;
+}
+.to_Do__icon:not(:last-child) {
+    margin-right: 25px;
+}
+.to_Do__icon img {
+    width: 18px;
+    height: 18px;
+}
+.avatar{
+    margin-left: auto;
+}
+.avatar img{
+    width: 40px;
+    height: 40px;
+}

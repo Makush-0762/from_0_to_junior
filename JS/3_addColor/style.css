@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(243, 226, 203);
+}
+.wrapper {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.baseBlock {
+    background-color: rgb(189, 222, 223);
+    width: 850px;
+    height: 550px;
+    padding: 15px;
+}
+.colorDiv{
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    height: 90%;
+    overflow-y: auto;
+}
+.color {
+    background-color:rgb(155, 219, 64);
+    width: 120px;
+    height: 80px;
+    margin: 15px;
+}
+.inputBlock{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 30px;
+}
+.input {
+    width: 100%;
+    height: 30px;
+}
+
+.none{
+    display: none;
+}

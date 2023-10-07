@@ -1,0 +1,69 @@
+.dflex{
+  display: flex!important;
+  justify-content: space-around!important;
+}
+.logocent{
+  display: flex;
+  justify-content: center;
+}
+.alignLogo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bgcolorHeader{
+  background: #ebfdfd;
+}
+.pdHeader{
+  padding: 15px 0px;
+}
+.fonSearch{
+  position: relative;
+}
+.bodySearch{
+  position: absolute;
+  top: 325px;
+}
+.languageBlock{
+  display: flex;
+  justify-content: space-around;
+}
+.imgLanBlock{
+  transition: 0.25s ease-in-out;
+}
+.imgLanBlock:hover{
+  transform: scale(1.15);
+}
+.bodyImgTutorial{
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.bodyImgTutorial img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.code-block {
+  display: block;
+  padding: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: monospace;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  border: 1px solid #f8ff90;
+}
+.sideBar{
+  list-style-type: none;
+}
+.sideBarLink {
+  text-decoration: none;
+  color: #000;
+  line-height: 190%;
+  font-weight: 400;
+  font-size: 20px;
+}

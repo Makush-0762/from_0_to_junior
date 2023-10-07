@@ -1,0 +1,63 @@
+.dropbtn{
+    color: rgb(105, 105, 105);
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.dropbtn:hover, .dropbtn:focus {
+    color: #000000;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content .link {
+    color: black;
+    width: 120%;
+    padding: 12px 25px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content .link:hover {background-color: #ddd}
+.show {display:block;}
+.dropdown-content.show {
+    display: block;
+}
+.dropdown-content link:hover {
+    background-color: #707070;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  .transition{
+    position: relative;
+    margin-left: 70%;
+  }
+  .MemuList{
+    padding: 0;
+    font-size: 20px;
+    margin: 0;
+    width: 100vh;
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .MemuList .link{
+    text-decoration: none;
+    color: rgb(105, 105, 105);
+  }
+  .listHome:hover{
+    color: #000000;
+  }
+  .bodyMunyList{
+    padding-top: 6px;
+}

@@ -1,0 +1,44 @@
+body{
+	background-color: #87CEFA;
+}
+img{
+	z-index: -1;
+}
+.wrapper{
+	display: flex;
+	width: 800px;
+	margin: auto;
+	flex-wrap: wrap;
+}
+.block-1_1{
+	display: flex;
+	width: 400px;
+	height: 225px;
+	justify-content: center;
+	align-items: center;
+	background-color: #AFEEEE;
+}
+.block-1_2{
+	display: flex;
+	width: 400px;
+	height: 225px;
+	overflow: hidden;
+}
+.block{
+	display: flex;
+	width: 800px;
+	height: 225px;
+}
+
+.block:hover div
+{	
+	background-color: rgba(0,0,0, 0.6);
+	transition: all 0.3s;
+}
+.block:hover .block-1_2 img
+{
+	transition: all 1s;
+	transform: scale(1.2);
+}
+
+

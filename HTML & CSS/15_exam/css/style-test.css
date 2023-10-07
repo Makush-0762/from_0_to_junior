@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol,li{
+    list-style: none;
+}
+img{
+    vertical-align: top;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: inherit;
+    font-size: inherit;
+}
+html,body{
+    height: 100%;
+    line-height: 1;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.header_container{
+    display: grid;
+    padding: 25px 35px 15px 35px;
+    grid-template-columns: 1fr 7fr 2fr;
+    border-bottom: 1px solid #777777;
+    grid-gap: 15px;
+    height: auto;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+}
+menu>ul{
+    display: flex;
+}
+.menu-list{
+    display: ;
+    flex-wrap: wrap;
+    vertical-align: middle;
+    gap: 5%;
+    padding-left: 25px;
+    font-size: 18px;
+    line-height: 171%;
+}
+.item-link{
+    color:#777777;
+}
+.item-link:hover{
+    color:black;
+    transition: all .5s;
+}
+.social-network_list-item{
+    display: inline-block;
+    vertical-align: middle;
+    height: 24px;
+    margin-bottom: 8px;
+    
+}
+.social-network_list{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 5%;
+    font-size: 18px;
+    color: #777777;
+    
+}
+.social-network-item:hover{
+    border-radius: 30%;
+    box-shadow: 0 0 5px 3px #777777;
+}
+.img-item{
+    width: 30px;
+}

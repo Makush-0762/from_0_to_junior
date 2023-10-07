@@ -1,0 +1,218 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper {
+    width: 700px;
+    height: 650px;
+    border-radius: 10px;
+    background-color: 	#e5cfee;
+    /* position: absolute;               
+    top: 50%;    
+    left: 50%;                        
+    transform: translate(-50%, -50%); */
+    padding: 20px;
+}
+.form > *:not(:last-child){
+    margin-bottom: 50px;
+}
+.title{
+    line-height: 5%;
+}
+.input_text{
+    width: 200px;
+    height: 35px;
+    padding: 3px 0 3px 20px;     
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}
+.input_1 {
+    border: 2px solid rgba(0, 0, 0, 0.5);
+}
+.input_1:focus {
+    outline: 2px solid rgba(0, 0, 0, 0.5);
+}
+.input_1::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}
+.input_1:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+.input_2 {
+    border: 2px solid #47cb51;
+    background-image: url(../img/valid.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 95%;
+}
+.input_2:focus {
+    outline: 2px solid #47cb51;
+}
+.input_2::placeholder {
+    color: 	#47cb51;
+}
+.input_2:focus::-webkit-input-placeholder {
+    color: transparent
+}
+.input_3 {
+    border: 2px solid #d56363;
+    background-image: url(../img/invalid.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 95%;
+}
+.input_3:focus {
+    outline: 2px solid #d56363;
+}
+.input_3::placeholder {
+    color: 	#d56363;
+}
+.input_3:focus::-webkit-input-placeholder {
+    color: transparent
+}
+/*-------//////// CHECKBOX ///////-----------------------------------------*/
+.check_box {
+    display: flex;
+}
+.check_box > *:not(:last-child){
+    margin-right: 30px;
+}
+.title_input{
+    display: block;
+}
+.checkbox {
+    cursor: pointer;
+}
+.checkbox:hover{
+    filter: brightness(1.2);
+}
+.checkbox__input {
+    display: none;
+}
+.checkbox__div {
+    position: relative;
+    width: 40px;
+    height: 20px;
+    border-radius: 40px;
+    background-color: rgb(34, 228, 57);
+    transition: 0.3s;
+}
+.checkbox__input:checked ~ .checkbox__div{
+    background-color: #d56363;
+}
+.checkbox__input:checked ~ .checkbox__div::before{
+    left: 23px;
+}
+.checkbox__div::before{
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 14px;
+    height: 14px;
+    background-color: #fff;
+    border-radius: 50%;
+    z-index: 2;
+    transition: 0.3s;
+}
+/*-------//////// Radio buttons ///////-----------------------------------------*/
+.line_radio{
+    display: flex;
+}
+.line_radio > *:not(:last-child){
+    margin-right: 30px;
+}
+p{
+    margin: 0;
+}
+.radio{
+    position: relative;
+}
+.radio_input{
+    display: none;
+}
+.radio__label1{
+    padding-left: 25px;
+    font-size: 1em;
+    color: #000;
+    cursor: pointer;
+}
+.radio__label1::before{
+    content: '';
+    display: block;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #47cb51;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: background ,border 0.1s linear;
+}
+.radio__label1::after{
+    content: '';
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #47cb51;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    z-index: 2;
+    opacity: 0;
+}
+.radio_input:checked + .radio__label1::before{
+    border-color: #47cb51;
+}
+.radio_input:checked + .radio__label1::after{
+    opacity: 1;
+}
+/*-------//////// Buttons ///////-----------------------------------------*/
+.button{
+    padding: 7px 22px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+}
+.circle_radio1,.circle_radio2{
+    border-radius: 50%;
+    padding: 7px 14px;
+}
+.circle_radio1{
+    padding: 7px 12px;
+
+}
+.all_buttons > *:not(:last-child){
+    margin-right: 15px;
+}
+#button_1,#button_6[type="submit"]{
+    background-color: #47cb51;
+}
+#button_2[type="submit"]{
+    background-color: #2e8a35;
+}
+#button_3[type="submit"]{
+    background-color: #e77676;
+}
+#button_4,#button_7[type="submit"]{
+    background-color: #ab4040;
+}
+#button_5[type="submit"]{
+    background-color: #666666;
+}
+/*-------//////// Text area ///////-----------------------------------------*/
+textarea[placeholder="Enter some text...."]{
+    padding: 15px;
+}
+textarea{
+    background-color: rgba(255, 255, 255, 0.5);
+}

@@ -1,0 +1,21 @@
+.MemuListFooter{
+  list-style-type: none;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+.bodyMunyList{
+  display: flex;
+  justify-content: center;
+}
+.MemuListFooter .linkFooter{
+  text-decoration: none;
+  color: #ffffff;
+  line-height: 200%;
+}
+.MemuListFooter .linkFooter:hover{
+  color: #00e6d2;
+}
+.dropdown-contentFooter .linkFooter{
+  list-style-type: none;
+  text-decoration: none;
+}

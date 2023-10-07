@@ -1,0 +1,17 @@
+.w-90{
+    width: 90%;
+}
+nav .nav-link{
+    color: rgba(255, 255, 255, 0.7);
+}
+nav .nav-link:hover{
+    color: rgba(255, 255, 255, 1);
+}
+.title_card{
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 18px;
+    margin-left: auto;
+}
+.table{
+    border-collapse: none;
+}

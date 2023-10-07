@@ -1,0 +1,65 @@
+body {
+	background-color:#FFE3E1;
+	font-family: 'Roboto', 'Arial', 'Colibri', sant-serif;
+}
+.text {
+	background: url("../img/fon.png");
+	border-radius: 15px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0 auto;
+	top: calc(716px / 50%); 
+	height: 716px;
+  	width: 716px;
+}
+.header {
+	text-align: center;
+}	
+/*div {
+	border: 5px solid black;
+}*/
+.winter {
+	color: DodgerBlue;
+	height: 100px;
+  	width: 150px;
+	float: left;
+	margin: -30% 15% 15% 15%;
+}
+.winter1 {
+	list-style-image: url("../img/winter.png");
+}
+.spring {
+	color: Lime;
+	height: 100px;
+  	width: 150px;
+  	float: left;
+  	margin: 15% 0 0 15%;
+
+}
+.spring1 {
+	list-style-image: url("../img/spring.png");
+}
+.summer {
+	color: Yellow;
+	height: 100px;
+  	width: 150px;
+  	float: right;
+  	margin: 15% 15% 0 0;
+}
+.summer1 {
+	list-style-image: url("../img/summer.png");
+}
+.autumm {
+	color: DarkOrange;
+	height: 100px;
+  	width: 150px;
+	float: right;
+  	margin: 35% 15% 15% 85%;
+}
+.autumm1 {
+	list-style-image: url("../img/autumm.png");
+}
+ .link {
+ 	text-align: center;
+ 	margin: 10px 0 5px 0;
+ }

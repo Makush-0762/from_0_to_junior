@@ -1,0 +1,53 @@
+.bgColor{
+    background-color: #daedff;
+}
+.stLogo{
+    display: inline-block;
+    padding-right: 30px;
+}
+.linkMenu{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+.linkMenu:not(:last-child){
+    padding-right: 50px;
+}
+.linkMenu:hover{
+    color: #ffa835;
+    font-weight: 600;
+}
+.listMenu{
+    justify-content: center;
+    display: flex;
+    list-style-type:none;
+    align-items:center;
+    margin: 0;
+}
+.formHeader{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.textInput{
+    margin-right: 5px;
+    padding: 10px;
+    width: 350px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border:none;
+    border-bottom: 2px solid rgba(15, 0, 225, 1);
+}
+.textInput:focus{
+    outline: none;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+}
+.search-btn{
+    cursor: pointer;
+    background: url('../../images/search.png') no-repeat center center;
+    background-size: 25px;
+    width: 32px;
+    height: 32px;
+    border:none;
+}

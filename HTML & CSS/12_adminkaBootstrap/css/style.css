@@ -1,0 +1,117 @@
+.w-90{
+    width: 90%;
+}
+nav .nav-link{
+    color: rgba(255, 255, 255, 0.7);
+}
+nav .nav-link:hover{
+    color: rgba(255, 255, 255, 1);
+}
+.title_card{
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 18px;
+    margin-left: auto;
+}
+.table{
+    border-collapse: none;
+}
+.rewards_date{
+    width: 129px;
+}
+.rewards_title{
+    width: 148px;
+}
+.radius {
+    border: 0.5px solid black;
+    border-radius: 10px;
+    padding: 8px;
+    position: relative;
+   }
+   .radius::before, .radius::after {
+    content: ''; 
+    position: absolute;
+    top: -2px;
+    right: -47px; 
+    bottom: 25px;
+    border: 25px solid transparent;
+    border-top: 25px solid black;
+    transform: rotate(270deg);
+    border-radius: 10px;
+   }
+   .radius::after {
+    border-top: 25px solid white;
+    top: -2px;
+    right: -46px; 
+    transform: rotate(270deg);
+    border-radius: 10px;
+   }
+   
+.radius_arround{
+    border: 0.5px solid black;
+    border-radius: 10px;
+    padding: 8px;
+    position: relative;
+   }
+   .radius_arround::before, .radius_arround::after {
+    content: ''; 
+    position: absolute;
+    top: -2px;
+    right: 121px; 
+    bottom: 25px;
+    border: 25px solid transparent;
+    border-top: 25px solid black;
+    transform: rotate(90deg);
+    border-radius: 10px;
+   }
+   .radius_arround::after {
+    border-top: 25px solid white;
+    top: -2px;
+    right: 120px; 
+    transform: rotate(90deg);
+    border-radius: 10px;
+}
+.radius_arround_w{
+    border: 0.5px solid black;
+    border-radius: 10px;
+    padding: 8px;
+    position: relative;
+   }
+   .radius_arround_w::before, .radius_arround_w::after {
+    content: ''; 
+    position: absolute;
+    top: -2px;
+    right: 141px; 
+    bottom: 25px;
+    border: 25px solid transparent;
+    border-top: 25px solid black;
+    transform: rotate(90deg);
+    border-radius: 10px;
+   }
+   .radius_arround_w::after {
+    border-top: 25px solid white;
+    top: -2px;
+    right: 140px; 
+    transform: rotate(90deg);
+    border-radius: 10px;
+}
+.col-4 span{
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+}
+/*--------input---------------------------------------*/
+.input_hover{
+    transition: all 0.3s;
+}
+.input_hover:hover{
+    background-color: rgba(206, 202, 202, 0.8);
+}
+.size_icon{
+    width: 24px;
+    height: 24px;
+}
+/*------------------------------*/
+.width_comment{
+    font-size: 10px;
+    margin-top: -5px;
+}

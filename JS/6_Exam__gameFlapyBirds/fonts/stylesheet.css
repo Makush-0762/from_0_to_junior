@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Origami Std';
+    src: url('OrigamiStd-SemiBold.eot');
+    src: local('Origami Std Semibold'), local('OrigamiStd-SemiBold'),
+        url('OrigamiStd-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('OrigamiStd-SemiBold.woff2') format('woff2'),
+        url('OrigamiStd-SemiBold.woff') format('woff'),
+        url('OrigamiStd-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Origami Std';
+    src: url('OrigamiStd-SemiBoldItalic.eot');
+    src: local('Origami Std Semibold Italic'), local('OrigamiStd-SemiBoldItalic'),
+        url('OrigamiStd-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('OrigamiStd-SemiBoldItalic.woff2') format('woff2'),
+        url('OrigamiStd-SemiBoldItalic.woff') format('woff'),
+        url('OrigamiStd-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Origami Std';
+    src: url('OrigamiStd-Regular.eot');
+    src: local('Origami Std Regular'), local('OrigamiStd-Regular'),
+        url('OrigamiStd-Regular.eot?#iefix') format('embedded-opentype'),
+        url('OrigamiStd-Regular.woff2') format('woff2'),
+        url('OrigamiStd-Regular.woff') format('woff'),
+        url('OrigamiStd-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Origami Std';
+    src: url('OrigamiStd-MediumItalic.eot');
+    src: local('Origami Std Medium Italic'), local('OrigamiStd-MediumItalic'),
+        url('OrigamiStd-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('OrigamiStd-MediumItalic.woff2') format('woff2'),
+        url('OrigamiStd-MediumItalic.woff') format('woff'),
+        url('OrigamiStd-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Origami Std';
+    src: url('OrigamiStd-Medium.eot');
+    src: local('Origami Std Medium'), local('OrigamiStd-Medium'),
+        url('OrigamiStd-Medium.eot?#iefix') format('embedded-opentype'),
+        url('OrigamiStd-Medium.woff2') format('woff2'),
+        url('OrigamiStd-Medium.woff') format('woff'),
+        url('OrigamiStd-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Origami Std';
+    src: url('OrigamiStd-Bold.eot');
+    src: local('Origami Std Bold'), local('OrigamiStd-Bold'),
+        url('OrigamiStd-Bold.eot?#iefix') format('embedded-opentype'),
+        url('OrigamiStd-Bold.woff2') format('woff2'),
+        url('OrigamiStd-Bold.woff') format('woff'),
+        url('OrigamiStd-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Origami Std';
+    src: url('OrigamiStd-Italic.eot');
+    src: local('Origami Std Italic'), local('OrigamiStd-Italic'),
+        url('OrigamiStd-Italic.eot?#iefix') format('embedded-opentype'),
+        url('OrigamiStd-Italic.woff2') format('woff2'),
+        url('OrigamiStd-Italic.woff') format('woff'),
+        url('OrigamiStd-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Origami Std';
+    src: url('OrigamiStd-BoldItalic.eot');
+    src: local('Origami Std Bold Italic'), local('OrigamiStd-BoldItalic'),
+        url('OrigamiStd-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('OrigamiStd-BoldItalic.woff2') format('woff2'),
+        url('OrigamiStd-BoldItalic.woff') format('woff'),
+        url('OrigamiStd-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+

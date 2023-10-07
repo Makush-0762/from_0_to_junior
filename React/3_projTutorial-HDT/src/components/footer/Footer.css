@@ -1,0 +1,18 @@
+.bgcolorFooter{
+    background: #624600;
+    margin-top: auto;
+}
+.pdFooter{
+    padding-top: 25px;
+}
+.imgIcon{
+    transition: 0.3s ease-in-out;
+    padding: 20px 50px;
+}
+.imgIcon:hover{
+    transform: scale(1.4);
+}
+.bodyIcon{
+    display: flex;
+    flex-wrap: wrap;
+}

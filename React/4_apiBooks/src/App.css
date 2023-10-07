@@ -1,0 +1,132 @@
+*{
+  font-family: 'Tenor Sans', sans-serif;
+}
+._container{
+  max-width:  1346px;
+  margin: 0px auto;
+  padding: 0px 15px;
+  box-sizing: content-box;
+}
+.titleIndex{
+  font-size: 92px;
+  color: rgba(15, 0, 225, 1);
+  position: relative;
+}
+.titleIndex::after{
+  content: '4';
+  color: #ffa835;
+  font-size: 192px;
+  position: absolute;
+  top: -40px;
+  left: 250px;
+}
+
+
+/*--------------------------------------*/
+
+.linkMenuHome{
+  text-decoration: none;
+  color: #000;
+  font-family: 'Tenor Sans', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 0;
+  line-height: 150%;
+  padding-bottom: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.linkMenuHome:not(:last-child){
+  padding-right: 50px;
+}
+.linkMenuHome:hover{
+  color: #b26500;
+  font-weight: 600;
+  transform: scale(1.2);
+}
+.listMenuHome{
+  display: flex;
+  justify-content: center;
+  list-style-type:none;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 0 auto;
+  margin: 25px auto;
+}
+
+
+/*-------------------------------------------------------*/
+
+.bodyCardImg{
+  width: 250px;
+  height: 355px;
+  overflow: hidden;
+  padding-bottom: 15px;
+}
+.cardImg{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.buttonCard{
+  padding: 10px 70px;
+  background-color:#ffa835;
+  margin-right: 25px;
+  text-decoration: none;
+  color: #000;
+}
+.buttonCard:hover{
+  background-color:#c88d40;
+  color: #ffffff;
+}
+.pagination{
+  margin: 0;
+}
+.page-item:first-child .page-link {
+  border-top-left-radius:0;
+  border-bottom-left-radius:0;
+}
+.page-item:last-child .page-link {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.page-link{
+  color:#000;
+}
+
+.inputContact{
+  height: 30px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: rgba(211, 211, 211, 0.6);
+  border-bottom: 2px solid rgba(15, 0, 225, 1);
+}
+.inputContact:focus{
+  outline: none;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+.textareaInput{
+  width: 100%;
+  padding: 10px;
+  z-index: 2;
+  margin-bottom: 50px;
+  border: none;
+  background-color: rgba(211, 211, 211, 0.6);
+  border-bottom: 2px solid rgba(15, 0, 225, 1);
+}
+.textareaInput:focus{
+  outline: none;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+.bodyImgTotal{
+  overflow: hidden;
+  /* padding-bottom: 15px; */
+}
+.ImgTotal{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

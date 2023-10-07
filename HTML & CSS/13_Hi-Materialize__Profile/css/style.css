@@ -1,0 +1,21 @@
+.container{
+    width: 100%;
+    max-width: 90%;
+}
+.burger_icon{
+    width: 41px;
+    height: 64px;
+}
+.lh_menu{
+    display: block;
+    height: 3rem;
+}
+.list_item {
+    border: none;
+}
+.item_data{
+    line-height: 200%;
+}
+.card-content{
+    padding: 10px 24px 10px 24px;
+}
