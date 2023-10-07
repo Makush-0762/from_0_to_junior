@@ -1,0 +1,24 @@
+.products-slider__slider:not(:last-child){
+    margin-right: 40px;
+}
+.slider{
+    width: 1590px;
+    height: 620px;
+    overflow: hidden;
+    /* border: 5px solid black; */
+}
+.polosa{
+    padding: 20px;
+    width: 3615px;
+    position: relative;
+    left:0;
+    transition: all ease 1s;
+}
+.polosa div{
+    float: left;
+}
+.polosa::after{
+    content: "";
+    display: block;
+    clear: both;
+}

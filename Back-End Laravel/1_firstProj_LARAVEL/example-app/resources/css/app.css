@@ -1,0 +1,29 @@
+.hoverText{
+    color: white;
+}
+.hoverText:hover{
+    color: #4a5568;
+    transform: scale(1.2);
+}
+.bodyFon img{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+.bodyFon{
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.opasity{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.bgURL{
+    background: url("https://png.pngtree.com/thumb_back/fh260/background/20210115/pngtree-blue-circuit-information-flow-particle-technology-wind-business-background-image_519515.jpg");
+}
